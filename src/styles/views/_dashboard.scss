@@ -1,0 +1,65 @@
+.parentViewDashboard {
+    display: block;
+    overflow: scroll;
+    &:hover {
+        filter: blur(0);
+        cursor: pointer;
+    }
+}
+.cv__drawerApp-content {
+    width: calc(100vw - 80px);
+    @media (max-width: "800px") {
+        width: calc(100vw - 57px);
+    }
+    .customMainBar {
+        width: inherit;
+        .topbar-hold {
+            width: calc(100vw - 80px);
+            left: 67px;
+        }
+    }
+}
+
+.alertActivateAccountModal {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    opacity: 0.8;
+}
+#mui-rte-editor-container {
+    display: block !important;
+}
+div.ck.ck-reset.ck-editor.ck-rounded-corners
+    > div.ck.ck-editor__top.ck-reset_all
+    > div
+    > div.ck.ck-sticky-panel__content
+    > div {
+    background: white;
+    border: none;
+}
+div.ck.ck-reset.ck-editor.ck-rounded-corners > div.ck.ck-editor__main > div,
+.public-DraftStyleDefault-block,
+.MUIRichTextEditor-placeHolder-91 {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: none;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    text-align: left;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
+    box-shadow: none;
+    padding: 10px;
+}
+div.ck.ck-reset.ck-editor.ck-rounded-corners > div.ck.ck-editor__main > div,
+.public-DraftStyleDefault-block,
+.MUIRichTextEditor-placeHolder-91 {
+    padding: 10px;
+}

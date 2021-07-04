@@ -8,6 +8,7 @@ import theme from './theme';
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom';
 import configureStore from './store/store';
+import "./styles/_app.scss";
 
 const store = configureStore();
 

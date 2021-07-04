@@ -1,0 +1,77 @@
+#root,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  // overflow: hidden;
+  position: relative;
+}
+
+div,
+a {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-title {
+  color: $text-body;
+}
+
+.layout1,
+.layout2,
+.MuiPaper-root,
+.MuiTableCell-body,
+.matx-customizer {
+  color: $text-body !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  color: rgba(255, 0, 221, 0.863);
+  font-size: 16px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.cv__breadcrumbs-link{
+  text-decoration: none;
+  color:rgb(184, 179, 179);
+  &:hover{
+    color:rgb(134, 132, 132);
+  }
+}
+
+.MuiTimelineItem-missingOppositeContent:before{
+  padding: 0 !important;
+}
+
+.timelineContentCustom{
+  padding: 0 40px 0 0;
+  box-sizing: border-box;
+  margin: 0;
+}

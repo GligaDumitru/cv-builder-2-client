@@ -1,0 +1,30 @@
+.cv__templateCard-main {
+    max-width: 400px;
+    margin: auto;
+    .cv__templateCard-select-button-left {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .cv__templateCard-select-button-right-bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .cv__templateCard-select-button-right {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+    }
+    .cv__templateCard-select-button {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    }
+}
+
+.cv__prev-template,
+.cv__next-template {
+    margin-top: 30px;
+    box-sizing: border-box;
+}
