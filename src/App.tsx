@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Congratulations! Your App is live. Start working.</p>
+        <p>version 2Congratulations! Your App is live. Start working.</p>
         <a
           className="App-link"
           href="https://reactjs.org"
